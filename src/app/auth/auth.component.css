@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-color: #322153;
+  --prime-color: #34cb78;
+}
+
+html {
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--title-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background: #ff8934;
+}
+
+section .card {
+  background-color: #34cb78a3;
+  border-radius: 5px solid;
+  margin: 0 100px 0 250px;
+}
+
+.card .card-header .card-body {
+  margin-top: 32px;
+  font-size: 36px;
+  line-height: 40px;
+  color: #322145;
+}
+.card .card-body .form-group .form-control {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .card-body .form-group .btn {
+  top: 20px;
+  justify-content: space-between;
+  color: #000;
+}
